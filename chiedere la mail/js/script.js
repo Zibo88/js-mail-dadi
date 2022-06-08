@@ -16,6 +16,7 @@ for (let i = 0; i < emailApproved.length; i++){
     // creo una variabile relativa agli elementi dell'array
     let emailEntered = emailApproved[i];
     
+    // se la mail inserita dall'utente è uguale agli elementi dentro l'array
     if(emailEntered === userMail){
         searchMail = true;
     }
