@@ -11,9 +11,6 @@
 // 5. proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo "a mano"
 
 
-// numeri che possono essere usati
-let numberToUse = [1, 2, 3, 4, 5, 6];
-
 // numeri generati per l'utente
 let randomNumberUser = Math.floor(Math.random(1) * 6) +1;
 // numeri fgenerati per il pc
