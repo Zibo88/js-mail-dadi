@@ -14,22 +14,21 @@
 // numeri che possono essere usati
 let numberToUse = [1, 2, 3, 4, 5, 6];
 
-// creo un ciclo di gioco
-for(let i = 0; i < numberToUse.length; i++){
-    // numeri generati per l'utente
-    let randomNumberUser = Math.floor(Math.random(1) * 7);
-    // numeri fgenerati per il pc
-    let randomNumberPc = Math.floor(Math.random(1) * 7)
+// numeri generati per l'utente
+let randomNumberUser = Math.floor(Math.random(numberToUse) * 6) +1;
+console.log(randomNumberUser)
+// numeri fgenerati per il pc
+let randomNumberPc = Math.floor(Math.random(numberToUse) * 6) +1;
 
-    // condizioni
-    if(randomNumberUser > randomNumberPc){
-        alert('Hai vinto');
-    } else if(randomNumberPc > randomNumberUser){
-        alert('Hai perso');
-    } else {
-        alert ('Hai pareggiato');
+// condizioni
+if(randomNumberUser > randomNumberPc){
+    alert('Hai vinto');
+} else if(randomNumberPc > randomNumberUser){
+    alert('Hai perso');
+} else {
+    alert ('Hai pareggiato');
     }
-}
+
 
 
 
