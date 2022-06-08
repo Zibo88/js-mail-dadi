@@ -15,10 +15,9 @@
 let numberToUse = [1, 2, 3, 4, 5, 6];
 
 // numeri generati per l'utente
-let randomNumberUser = Math.floor(Math.random(numberToUse) * 6) +1;
-console.log(randomNumberUser)
+let randomNumberUser = Math.floor(Math.random(1) * 6) +1;
 // numeri fgenerati per il pc
-let randomNumberPc = Math.floor(Math.random(numberToUse) * 6) +1;
+let randomNumberPc = Math.floor(Math.random(1) * 6) +1;
 
 // condizioni
 if(randomNumberUser > randomNumberPc){
