@@ -6,7 +6,7 @@
 const emailApproved = ['mario@gmail.com', 'giulia@gmail.com', 'carlo@gmail.com']
 
 // chiedo all'utente la mail
-let userMail = prompt ('dimmi la tua mail');
+let userMail = prompt ("Inserisci la tua mail per eseguire l'accesso");
 
 // creo una variabile booleana per riconoscere se la mail è approvata o meno
 let searchMail = false;
